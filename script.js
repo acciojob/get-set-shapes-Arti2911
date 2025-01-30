@@ -2,7 +2,7 @@
 class Rectangle {
 	constructor(width,height){
 		this._width=width;
-		this.height=height;
+		this._height=height;
 	}
 	get height(){
 		return this._height;
